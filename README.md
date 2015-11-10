@@ -9,13 +9,13 @@ Today
 Assignment
 ----------
 
-Create a web aspi app that allows a client to list all Posts via an API.
+Create an ASP.NET Web Application and select 'Empty Project' and then check mark Web Api. Make sure that 'No Authentication' is selected. This app will allow a client to list all Blog Posts via an API.
 
-* GET `/posts` to return all posts
-* GET `/posts/:id` gives details of a post
-* POST `/posts` creates a post
-* PUT `/posts/:id` updates a post
-* DELETE `/posts/:id` deletes a post
+* GET `api/posts` to return all posts
+* GET `api/posts/{id}` gives details of a post
+* POST `api/posts` creates a post
+* PUT `api/posts/{id}` updates a post
+* DELETE `api/posts/{id}` deletes a post
 
 Test your apps using [PostMan](http://www.getpostman.com)
 
